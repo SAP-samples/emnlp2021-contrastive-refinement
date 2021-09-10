@@ -1,5 +1,3 @@
-# [Title]
-
 # Towards Zero-shot Commonsense Reasoning with Self-supervised Refinement of Language Models
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-red.svg)](#python)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
