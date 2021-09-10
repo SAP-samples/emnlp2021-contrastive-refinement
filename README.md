@@ -25,7 +25,6 @@ This paper presents an initial study exploring the feasibility of zero-shot comm
 ## How to obtain support
 
 [Create an issue](https://github.com/SAP-samples/emnlp2021-contrastive-refinement/issues) in this repository if you find a bug or have questions about the content.
- 
 For additional support, [ask a question in SAP Community](https://answers.sap.com/questions/ask.html).
 
 ## Contributing
