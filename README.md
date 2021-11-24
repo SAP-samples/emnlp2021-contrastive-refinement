@@ -28,12 +28,17 @@ If you use this code in your research,
 please cite:
 
 ```
-@inproceedings{klein-nabi-2021-contrastive-refinement,
+@inproceedings{klein-nabi-2021-towards,
     title = "Towards Zero-shot Commonsense Reasoning with Self-supervised Refinement of Language Models",
     author = "Klein, Tassilo  and
       Nabi, Moin",
-     booktitle={Empirical Methods in Natural Language Processing (EMNLP)},
-   year={2021}
+    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2021",
+    address = "Online and Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.emnlp-main.688",
+    pages = "8737--8743",
 }
 ```
 
