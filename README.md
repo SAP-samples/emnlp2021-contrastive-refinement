@@ -58,9 +58,14 @@ rm winogrande_1.1.zip
 cd ..
 ```
 
-4. Train
+4.  Get the Pertubed-WSC dataset of the paper [The Sensitivity of Language Models and Humans to Winograd Schema Perturbations](https://arxiv.org/pdf/2005.01348.pdf).
 ```
-python refine_lm.py <--arguments-->
+wget https://raw.githubusercontent.com/mhany90/perturbed-wsc/release/data/dataset/enhanced_wsc.tsv
+```
+
+5. Train
+```
+python refine_lm.py [ARGUMENTS]
 ```
 
 
