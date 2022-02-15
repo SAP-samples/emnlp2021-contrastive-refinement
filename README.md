@@ -17,6 +17,52 @@ This paper presents an initial study exploring the feasibility of zero-shot comm
  - [Moin Nabi](https://moinnabi.github.io/)
 
 
+## Requirements
+- [Python](https://www.python.org/) (version 3.6 or later)
+- [PyTorch](https://pytorch.org/)
+- [Huggingface Tranformers](https://github.com/huggingface/transformers)
+
+
+## Download and Installation
+
+1. Install the requiremennts:
+
+```
+conda install --yes --file requirements.txt
+```
+
+or
+
+```
+pip install -r requirements.txt
+```
+
+2. Clone this repository and install dependencies:
+```
+git clone https://github.com/SAP-samples/emnlp2021-attention-contrastive-learning
+cd emnlp2021-attention-contrastive-learning
+pip install -r requirements.txt
+```
+
+3. Create 'data' sub-directory and download files for PDP, WSC challenge, KnowRef, DPR and WinoGrande:
+```
+mkdir data
+wget https://cs.nyu.edu/faculty/davise/papers/WinogradSchemas/PDPChallenge2016.xml
+wget https://cs.nyu.edu/faculty/davise/papers/WinogradSchemas/WSCollection.xml
+wget https://raw.githubusercontent.com/aemami1/KnowRef/master/Knowref_dataset/knowref_test.json
+wget http://www.hlt.utdallas.edu/~vince/data/emnlp12/train.c.txt
+wget http://www.hlt.utdallas.edu/~vince/data/emnlp12/test.c.txt
+wget https://storage.googleapis.com/ai2-mosaic/public/winogrande/winogrande_1.1.zip
+unzip winogrande_1.1.zip
+rm winogrande_1.1.zip
+cd ..
+```
+
+4. Train
+```
+python refine_lm.py <--arguments-->
+```
+
 
 ## How to obtain support
 
