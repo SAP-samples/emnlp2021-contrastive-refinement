@@ -65,7 +65,7 @@ wget https://raw.githubusercontent.com/mhany90/perturbed-wsc/release/data/datase
 
 5. Train
 ```
-python refine_lm.py [ARGUMENTS]
+python refine_lm.py -do_train --do_eval --shuffle_batch --output_experimentname --R_weight=0.5 --C_weight=75 --C_loss= --C_weight=0.5 --D_weight=0.5  --adam_epsilon=1e-08 --bert_model=bert-large-uncased --eval_task_name dpr --cls_hidden_dropout=0.1 --cls_hidden_size=128 --data_dir=data/ --eval_batch_size=10 --eval_steps=5 --gen_perturbations=1 --learning_rate=5e-05 --matrix_band=4 --max_grad_norm=1 --max_seq_length=40 --num_train_epochs=10 --output_dir=model_output/experiment/ --ranking_steps=50 --reg_perturbations=2 --schedule=cosine --train_batch_size=10 --warmup_steps=250
 ```
 
 
